@@ -5,15 +5,17 @@
   id ="com.phonegap.app7"
   version="1.0.0">
   
-  <name>App7 Swipe con la pantalla Deslizar</name>
+  <name>App7 Deslizar hacia la izquierda y derecha</name>
   
   <description>
-  Swipe con la pantalla Deslizar
+  Aplicacion que realiza el Swipeo deslizamiento en el dispositivo
   </description>
   
   <author href="https://build.phonegap.com" email="oscartla18@gmail.com">
 OSCAR AVILA TLACOMULCO
   </author>
+  
+  
   
   <!--Personaliza la aplicacion y plataforma-->
   <preference name="orientation"   value="default"/>
@@ -24,13 +26,8 @@ OSCAR AVILA TLACOMULCO
   <preference name="android-installLocation"   value="auto"/>
   <preference name="permissions"   value="INTERNET"/>
   
-  <!--Para accesar a paginas en internet-->
-  <allow-intent href="https://*/*"/>
-  <acces arigin="https://*/*"/>
-  <allow-intent href="http://*/*"/>
-  <acces origin="http://*/*"/>
-  <plugin name="cordova-plugin-whitelist" source="npm"/>
-  <!--Plugins-->
+  
+   <!--Plugins-->
   <!--Core Plugins-->
   <plugin name="cordova-plugin-device" spec="~1.1.4"/>
   <plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
@@ -38,6 +35,14 @@ OSCAR AVILA TLACOMULCO
   
   <!--<plugin name="cordova-plugin-geolocation" source="npm"/>-->
   <!--Third party plugins-->
+  
+  <!--Para accesar a paginas en internet-->
+  <allow-intent href="https://*/*"/>
+  <acces arigin="https://*/*"/>
+  <allow-intent href="http://*/*"/>
+  <acces origin="http://*/*"/>
+  <plugin name="cordova-plugin-whitelist" source="npm"/>
+ 
   
   <!--Colocar icono app-->
   
